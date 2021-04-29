@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>MovieInfo</title>
-    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">MovieInfo</a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container">
-    	<div class="jumbotron">
-	    	<h3 class="text-center">Search For Any Movie</h3>
-	    	<form id="searchForm">
-	    		<input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
-	    	</form>
-	    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame</title>
+</head>
+<body>
+    <div class="frames" style="display: grid;grid-template-columns: auto auto auto auto auto;">
+     <div>  
+    <h2 style="text-align: center;">Vision</h2>
+    <iframe src="vision.html" title="vision" width="250px" height="300px" style="border:2px solid red;">
+    </iframe>
     </div>
-
-    <div class="container">
-      <div id="movies" class="row"></div>
-    </div>
-
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="js/main.js"></script>
-  </body>
+    <div>
+    <h2 style="text-align: center;">Mission</h2>
+    <iframe src="mission.html" title="mission" width="250px" height="300px" style="border:2px solid red;">
+    </iframe>
+     </div>
+     <div>
+    <h2>Entrepreneurship focus</h2>
+    <iframe src="Entrepreneurship.html" title="entrepreneurship" width="250px" height="300px" style="border:2px solid red;">
+    </iframe>
+     </div>
+     <div>
+    <h2 style="text-align: center;">Awards and Honors</h2>
+    <iframe src="awards.html" title="awards and honors" width="250px" height="300px" style="border:2px solid red;">
+    </iframe>
+     </div>
+     <div>
+    <h2 style="text-align: center;">NBI</h2>
+    <iframe src="national.html" title="national board of Accreditation" width="250px" height="300px" style="border:2px solid red;">
+    </iframe>
+     </div>
+</div>
+</body>
 </html>
