@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <h1 align="center" style="color: black;">JSSATE Noida, UP</h1>
+<title>Student Registration Form</title>
+<style type="text/css">
+th {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+body {
+    background-image:
+    linear-gradient(
+      to right, 
+      #fffdc2,
+      #fffdc2 15%,
+      #d7f0a2 15%,
+      #d7f0a2 85%,
+      #fffdc2 85%
+    );
+	color:white;
+    font-family:verdana;
+}
+
+</style>
+
+</head>
+
+<body>
+<form>
+<table width="700px" border="0" align="center" style="color: black;" cellpadding="0" cellspacing="10">
+  <tr>
+    <th width="25%" height="60">&nbsp;</th>
+    <th><p>Student Registration Form</p></th>
+    <th width="10%">&nbsp;</th>
+  </tr>
+  <tr>
+    <td><strong>Name:</strong></td>
+    <td><input name="name" type="text" size="30" required/></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>DOB:</strong></td>
+    <td><input type="date" type="number" size="30" required/></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Gender:</strong></td>
+    <td><input type="radio" name="gender" value="male" required>Male
+    	<input type="radio" name="gender" value="female">Female</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Email:</strong></td>
+    <td><input name="Email" type="email" size="35" required/></td>
+    <td>&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td><strong>Address:</strong></td>
+    <td><input name="name2" type="text" size="35" required/></td>
+    <td>&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td><strong>Department:</strong></td>
+    <td><select   id="slct1" name="slct1" onchange="populate(this.id,'slct2')" >
+	<option>Select..</option>
+    <option value="Information Technology">Information Technology</option>
+    <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+    <option value="Electrical Engineering">Electrical Engineering</option>
+      <option value="Electronics Engineering">Electronics Engineering</option>
+      <option value="Science,Engineering and Technology">Science,Engineering and Technology</option>
+      <option value="Department of Education">Department of Education</option>
+      <option value="Pharmacy">Pharmacy</option>
+      
+</select></td>
+    <td>&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td><strong>Mobile Number:</strong></td>
+    <td><input name="Mobile no. name3" type="text" size="35"/></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Upload your photograph:</strong></td>
+          <td><input type="file" id="myFile" name="filename"></td>
+      </td>
+  </tr>
+  <tr>
+    <td><input type="reset" /></td>
+    <td><input type="submit" value="Submit"  onclick="alert('your details have been submitted!')"/></td>
+    <td>&nbsp;</td>
+  </tr>
+ </table>
+ </form>
+  <p align=center style="color:black; margin-top: 8.5em;">Jagadguru Sri Shivarathreeshwara Academy of Technical Education, Noida<br>201309(UP)</p>
+ </body>
+</html>
